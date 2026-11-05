@@ -1,0 +1,2675 @@
+{
+  "schema_version": 1,
+  "curated_date": "2026-10-31",
+  "scope": "Trained v2 classes only. New taxonomy is source-checked; unsupported species-specific management is withheld.",
+  "species": [
+    {
+      "id": "alomy",
+      "class_label": "Black-grass",
+      "common_name": "Black-grass",
+      "scientific_name": "Alopecurus myosuroides",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Annual",
+      "tier": "A",
+      "aliases": [
+        "blackgrass",
+        "black grass",
+        "slender foxtail"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_ALOMY",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Black-grass is recorded here as Alopecurus myosuroides, in the family Poaceae.",
+          "source_ids": [
+            "eppo_ALOMY"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Black-grass as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Black-grass is an annual tufted grass. Young leaves are fine and smooth; older flowering plants bear narrow, dark-purplish heads.",
+          "source_ids": [
+            "black_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "lookalikes",
+          "text": "Young black-grass can resemble loose silky-bent; a purple or reddish leaf sheath alone is insufficient to distinguish them.",
+          "source_ids": [
+            "black_bio",
+            "silky_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "AHDB's UK arable guidance combines rotation changes, suitable spring cropping, competitive crops and delayed autumn sowing to reduce black-grass pressure. Timing must be adapted locally.",
+          "source_ids": [
+            "black_iwm"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "mechanical",
+          "text": "AHDB describes rotational inversion tillage and hand-roguing low-density patches as parts of black-grass control. Prevent surviving plants returning seed.",
+          "source_ids": [
+            "black_iwm"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "integrated",
+          "text": "Use several complementary measures and reduce seed movement on machinery or infested material; non-chemical measures also help protect herbicide efficacy.",
+          "source_ids": [
+            "black_iwm"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "sinar",
+      "class_label": "Charlock",
+      "common_name": "Charlock",
+      "scientific_name": "Sinapis arvensis",
+      "family": "Brassicaceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Annual",
+      "tier": "B",
+      "aliases": [
+        "wild mustard"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_SINAR",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Charlock is recorded here as Sinapis arvensis, in the family Brassicaceae.",
+          "source_ids": [
+            "eppo_SINAR"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Charlock as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Charlock is a hairy annual broadleaf with irregularly toothed leaves and pale-yellow flowers with four petals.",
+          "source_ids": [
+            "charlock_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "competition",
+          "text": "AHDB reports competition with winter wheat and winter oilseed rape in the UK. Control is particularly difficult in brassica crops; this is not a Pakistani treatment recommendation.",
+          "source_ids": [
+            "charlock_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "galap",
+      "class_label": "Cleavers",
+      "common_name": "Cleavers",
+      "scientific_name": "Galium aparine",
+      "family": "Rubiaceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Annual",
+      "tier": "A",
+      "aliases": [
+        "catchweed bedstraw",
+        "goosegrass"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_GALAP",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Cleavers is recorded here as Galium aparine, in the family Rubiaceae.",
+          "source_ids": [
+            "eppo_GALAP"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Cleavers as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Cleavers has scrambling stems, whorled leaves and hooked bristles that cling to clothing and other plants. Tiny white flowers later form bristly fruits.",
+          "source_ids": [
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "life_cycle",
+          "text": "Cleavers is an annual; the Danish crop-protection guide describes both summer- and winter-annual growth.",
+          "source_ids": [
+            "cleavers_dk"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "mechanical",
+          "text": "In garden beds, remove rooted cleavers plants or hoe young seedlings before flowering and seed production. Minimize unnecessary soil disturbance.",
+          "source_ids": [
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "RHS garden guidance includes mulching bare soil to suppress new cleavers seedlings. Recheck boundaries and young plantings for new growth.",
+          "source_ids": [
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "competition",
+          "text": "The Danish crop guide reports that cleavers can contribute to lodging and crop losses; the significance depends on crop and infestation.",
+          "source_ids": [
+            "cleavers_dk"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "steme",
+      "class_label": "Common Chickweed",
+      "common_name": "Common chickweed",
+      "scientific_name": "Stellaria media",
+      "family": "Caryophyllaceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Winter or summer annual",
+      "tier": "A",
+      "aliases": [
+        "chickweed",
+        "winterweed"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_STEME",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Common chickweed is recorded here as Stellaria media, in the family Caryophyllaceae.",
+          "source_ids": [
+            "eppo_STEME"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Common chickweed as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Common chickweed forms low, fragile stems with opposite, pointed oval leaves. Its white petals are deeply notched; mouseear chickweed has more densely hairy leaves.",
+          "source_ids": [
+            "chickweed_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "life_cycle",
+          "text": "Iowa State describes common chickweed as a winter or summer annual.",
+          "source_ids": [
+            "chickweed_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "mechanical",
+          "text": "Pull shallow-rooted plants or hoe seedlings on a dry day before they set seed. Keep flowering material out of ordinary home compost where seed may survive.",
+          "source_ids": [
+            "chickweed_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "For garden beds, mulch or suitable ground cover can suppress new chickweed seedlings. Avoid unnecessary soil disturbance that brings buried seed to the surface.",
+          "source_ids": [
+            "chickweed_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "trzax",
+      "class_label": "Common wheat",
+      "common_name": "Common wheat",
+      "scientific_name": "Triticum aestivum",
+      "family": "Poaceae",
+      "role": "crop",
+      "plant_type": "grass",
+      "life_cycle": "Annual",
+      "tier": "B",
+      "aliases": [
+        "wheat",
+        "bread wheat",
+        "winter wheat"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_TRZAX",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Common wheat is recorded here as Triticum aestivum, in the family Poaceae.",
+          "source_ids": [
+            "eppo_TRZAX"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Common wheat as a crop class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Common wheat is an annual cereal grass cultivated for grain, forage or cover cropping; its leaves are linear.",
+          "source_ids": [
+            "wheat_ncsu"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "NC State describes wheat as a cover crop that can suppress weeds. This does not authorize removing a desired wheat crop or selecting a herbicide for it.",
+          "source_ids": [
+            "wheat_ncsu"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "cheal",
+      "class_label": "Fat Hen",
+      "common_name": "Fat hen",
+      "scientific_name": "Chenopodium album",
+      "family": "Amaranthaceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Annual",
+      "tier": "A",
+      "aliases": [
+        "fat-hen",
+        "lambsquarters",
+        "lamb's quarters",
+        "white goosefoot"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_CHEAL",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Fat hen is recorded here as Chenopodium album, in the family Amaranthaceae.",
+          "source_ids": [
+            "eppo_CHEAL"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Fat hen as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Fat hen is an erect annual herb with elliptic to diamond-shaped, toothed leaves and a pale mealy lower surface. Flowers occur in dense small green clusters.",
+          "source_ids": [
+            "fat_hen_awri"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "competition",
+          "text": "AWRI describes competition for water and nutrients in its viticulture context; regional crop relevance requires separate verification.",
+          "source_ids": [
+            "fat_hen_awri"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "mechanical",
+          "text": "AWRI describes mowing before flowering to reduce seed set and hand-pulling before seeding. This information comes from Australian vineyard management.",
+          "source_ids": [
+            "fat_hen_awri"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "integrated",
+          "text": "Monitor new growth after rain or irrigation and prevent seed production; the source describes rapid growth in moist conditions and long-lived buried seed.",
+          "source_ids": [
+            "fat_hen_awri"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "apesv",
+      "class_label": "Loose Silky-bent",
+      "common_name": "Loose silky-bent",
+      "scientific_name": "Apera spica-venti",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Annual",
+      "tier": "B",
+      "aliases": [
+        "loose silky bent",
+        "silky bent",
+        "wind grass"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_APESV",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Loose silky-bent is recorded here as Apera spica-venti, in the family Poaceae.",
+          "source_ids": [
+            "eppo_APESV"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Loose silky-bent as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Loose silky-bent is an annual grass with smooth leaf sheaths and an open, feathery flowerhead. It can resemble young black-grass.",
+          "source_ids": [
+            "silky_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "AHDB reports that grass breaks or spring cropping can reduce loose silky-bent populations in UK cereal rotations.",
+          "source_ids": [
+            "silky_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "mechanical",
+          "text": "In reduced-tillage settings, AHDB describes allowing emergence before cultivating or harrowing seedlings when soil is dry.",
+          "source_ids": [
+            "silky_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "resistance",
+          "text": "Resistance to ALS inhibitors is reported in parts of mainland Europe. ALS inhibitors are HRAC Group 2; this information does not establish local resistance or efficacy.",
+          "source_ids": [
+            "silky_bio",
+            "hrac"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "zeamx",
+      "class_label": "Maize",
+      "common_name": "Maize",
+      "scientific_name": "Zea mays",
+      "family": "Poaceae",
+      "role": "crop",
+      "plant_type": "grass",
+      "life_cycle": "Annual",
+      "tier": "B",
+      "aliases": [
+        "corn"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_ZEAMX",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Maize is recorded here as Zea mays, in the family Poaceae.",
+          "source_ids": [
+            "eppo_ZEAMX"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Maize as a crop class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Maize, also called corn, is an annual grass crop in Poaceae. It is wind-pollinated and cultivated for its grain and other crop uses.",
+          "source_ids": [
+            "maize_ncsu"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "NC State's garden guidance favors mulch around established corn rather than cultivation that may injure its roots. Do not interpret a maize prediction as a weed-removal instruction.",
+          "source_ids": [
+            "maize_ncsu"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "matin",
+      "class_label": "Scentless Mayweed",
+      "common_name": "Scentless mayweed",
+      "scientific_name": "Tripleurospermum inodorum",
+      "family": "Asteraceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Annual to short-lived perennial; varies by region",
+      "tier": "A",
+      "aliases": [
+        "scentless chamomile",
+        "Matricaria perforata"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_MATIN",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Scentless mayweed is recorded here as Tripleurospermum inodorum, in the family Asteraceae.",
+          "source_ids": [
+            "eppo_MATIN"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Scentless mayweed as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Scentless mayweed has finely divided, thread-like leaves and white daisy-like flowerheads with yellow centers. Non-flowering mayweeds can be difficult to distinguish.",
+          "source_ids": [
+            "mayweed_bio",
+            "mayweed_nwcb"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "life_cycle",
+          "text": "Regional guides describe annual to short-lived perennial behavior. A growth-stage photograph alone does not establish the full life cycle.",
+          "source_ids": [
+            "mayweed_nwcb"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "mechanical",
+          "text": "Washington State guidance supports hand-pulling small infestations. Mowing can slow flowering, but plants may flower again below the cut height.",
+          "source_ids": [
+            "mayweed_nwcb"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "cultural",
+          "text": "Competitive vegetation can suppress scentless mayweed, and cleaning equipment helps limit movement into new areas.",
+          "source_ids": [
+            "mayweed_nwcb"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "resistance",
+          "text": "AHDB reports UK populations resistant to ALS inhibitors. These are HRAC Group 2. Resistance testing and local professional advice are needed before a control programme is chosen.",
+          "source_ids": [
+            "mayweed_bio",
+            "hrac"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "capbp",
+      "class_label": "Shepherds Purse",
+      "common_name": "Shepherd's purse",
+      "scientific_name": "Capsella bursa-pastoris",
+      "family": "Brassicaceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Winter annual; regional variation reported",
+      "tier": "B",
+      "aliases": [
+        "shepherds purse",
+        "shepherd's-purse"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_CAPBP",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Shepherd's purse is recorded here as Capsella bursa-pastoris, in the family Brassicaceae.",
+          "source_ids": [
+            "eppo_CAPBP"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Shepherd's purse as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Shepherd's purse forms a basal leaf rosette; flowering stems bear distinctive triangular or heart-shaped seed pods. Older rosette leaves can be deeply lobed.",
+          "source_ids": [
+            "purse_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "life_cycle",
+          "text": "Iowa State describes a winter annual; Washington State notes annual, winter-annual and occasional biennial behavior.",
+          "source_ids": [
+            "purse_bio",
+            "purse_wsu"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "gerpu",
+      "class_label": "Small-flowered Cranesbill",
+      "common_name": "Small-flowered cranesbill",
+      "scientific_name": "Geranium pusillum",
+      "family": "Geraniaceae",
+      "role": "weed",
+      "plant_type": "broadleaf",
+      "life_cycle": "Not independently verified in this record",
+      "tier": "B",
+      "aliases": [
+        "small flowered cranesbill",
+        "small-flower geranium"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_GERPU",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Small-flowered cranesbill is recorded here as Geranium pusillum, in the family Geraniaceae.",
+          "source_ids": [
+            "eppo_GERPU"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Small-flowered cranesbill as a weed class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Small-flowered cranesbill has opposite, hairy leaves that are rounded to kidney-shaped, with palm-like lobes. Flowers have five separate petals.",
+          "source_ids": [
+            "geranium_bio"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "beava",
+      "class_label": "Sugar beet",
+      "common_name": "Sugar beet",
+      "scientific_name": "Beta vulgaris subsp. vulgaris var. altissima",
+      "family": "Amaranthaceae",
+      "role": "crop",
+      "plant_type": "broadleaf",
+      "life_cycle": "Not independently verified for this crop record",
+      "tier": "B",
+      "aliases": [
+        "sugarbeet",
+        "Beta vulgaris"
+      ],
+      "taxonomy_source_ids": [
+        "eppo_BEAVA",
+        "dataset"
+      ],
+      "pakistan_relevance": "Not verified for this record",
+      "expert_review_status": "Not independently reviewed by a local botanist/agronomist",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Sugar beet is recorded here as Beta vulgaris subsp. vulgaris var. altissima, in the family Amaranthaceae.",
+          "source_ids": [
+            "eppo_BEAVA"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "classification",
+          "text": "The dataset treats Sugar beet as a crop class. This project label does not decide whether a plant is unwanted in your field.",
+          "source_ids": [
+            "dataset",
+            "cleavers_rhs"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        },
+        {
+          "category": "description",
+          "text": "Sugar beet is a cultivated beet variety group grown as a field crop for sugar extraction, in Amaranthaceae. It is one of the three crop labels in this dataset.",
+          "source_ids": [
+            "eppo_BEAVA",
+            "dataset"
+          ],
+          "verification": "source_checked; not independently field-verified"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3085368",
+      "class_label": "Agrostemma githago",
+      "common_name": "Common corn-cockle",
+      "scientific_name": "Agrostemma githago",
+      "family": "Caryophyllaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Common corn-cockle"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3085368",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Common corn-cockle is recorded as Agrostemma githago in the family Caryophyllaceae.",
+          "source_ids": [
+            "gbif_3085368"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-6109534",
+      "class_label": "Amaranthus retroflexus",
+      "common_name": "Red-root amaranth",
+      "scientific_name": "Amaranthus retroflexus",
+      "family": "Amaranthaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Red-root amaranth"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_6109534",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Red-root amaranth is recorded as Amaranthus retroflexus in the family Amaranthaceae.",
+          "source_ids": [
+            "gbif_6109534"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5708780",
+      "class_label": "Barbarea vulgaris",
+      "common_name": "Yellow rocket",
+      "scientific_name": "Barbarea vulgaris",
+      "family": "Brassicaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Yellow rocket"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_5708780",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Yellow rocket is recorded as Barbarea vulgaris in the family Brassicaceae.",
+          "source_ids": [
+            "gbif_5708780"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2703777",
+      "class_label": "Bromus hordeaceus",
+      "common_name": "Soft brome",
+      "scientific_name": "Bromus hordeaceus",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Soft brome"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2703777",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Soft brome is recorded as Bromus hordeaceus in the family Poaceae.",
+          "source_ids": [
+            "gbif_2703777"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2703717",
+      "class_label": "Bromus secalinus",
+      "common_name": "Rye brome",
+      "scientific_name": "Bromus secalinus",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Rye brome"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2703717",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Rye brome is recorded as Bromus secalinus in the family Poaceae.",
+          "source_ids": [
+            "gbif_2703717"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3089561",
+      "class_label": "Centaurea cyanus",
+      "common_name": "Cornflower",
+      "scientific_name": "Centaurea cyanus",
+      "family": "Asteraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Cornflower"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3089561",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Cornflower is recorded as Centaurea cyanus in the family Asteraceae.",
+          "source_ids": [
+            "gbif_3089561"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3113414",
+      "class_label": "Cirsium arvense",
+      "common_name": "Creeping thistle",
+      "scientific_name": "Cirsium arvense",
+      "family": "Asteraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Creeping thistle"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3113414",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Creeping thistle is recorded as Cirsium arvense in the family Asteraceae.",
+          "source_ids": [
+            "gbif_3113414"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2928390",
+      "class_label": "Convolvulus arvensis",
+      "common_name": "Field bindweed",
+      "scientific_name": "Convolvulus arvensis",
+      "family": "Convolvulaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Field bindweed"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2928390",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Field bindweed is recorded as Convolvulus arvensis in the family Convolvulaceae.",
+          "source_ids": [
+            "gbif_2928390"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2928751",
+      "class_label": "Datura stramonium",
+      "common_name": "Thorn apple",
+      "scientific_name": "Datura stramonium",
+      "family": "Solanaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Thorn apple"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2928751",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Thorn apple is recorded as Datura stramonium in the family Solanaceae.",
+          "source_ids": [
+            "gbif_2928751"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5289972",
+      "class_label": "Digitaria sanguinalis",
+      "common_name": "Purple crabgrass",
+      "scientific_name": "Digitaria sanguinalis",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Purple crabgrass"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_5289972",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Purple crabgrass is recorded as Digitaria sanguinalis in the family Poaceae.",
+          "source_ids": [
+            "gbif_5289972"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2702808",
+      "class_label": "Echinochloa crus-galli",
+      "common_name": "Cockspur grass",
+      "scientific_name": "Echinochloa crus-galli",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Cockspur grass"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2702808",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Cockspur grass is recorded as Echinochloa crus-galli in the family Poaceae.",
+          "source_ids": [
+            "gbif_2702808"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2889373",
+      "class_label": "Fagopyrum esculentum",
+      "common_name": "Common buckwheat",
+      "scientific_name": "Fagopyrum esculentum",
+      "family": "Polygonaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Common buckwheat"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2889373",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Common buckwheat is recorded as Fagopyrum esculentum in the family Polygonaceae.",
+          "source_ids": [
+            "gbif_2889373"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-6391461",
+      "class_label": "Fallopia convolvulus",
+      "common_name": "Black-bindweed",
+      "scientific_name": "Fallopia convolvulus",
+      "family": "Polygonaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Black-bindweed"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_6391461",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Black-bindweed is recorded as Fallopia convolvulus in the family Polygonaceae.",
+          "source_ids": [
+            "gbif_6391461"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-6391446",
+      "class_label": "Fallopia dumetorum",
+      "common_name": "Copse-bindweed",
+      "scientific_name": "Fallopia dumetorum",
+      "family": "Polygonaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Copse-bindweed"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_6391446",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Copse-bindweed is recorded as Fallopia dumetorum in the family Polygonaceae.",
+          "source_ids": [
+            "gbif_6391446"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5334217",
+      "class_label": "Fumaria officinalis",
+      "common_name": "Common fumitory",
+      "scientific_name": "Fumaria officinalis",
+      "family": "Papaveraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Common fumitory"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_5334217",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Common fumitory is recorded as Fumaria officinalis in the family Papaveraceae.",
+          "source_ids": [
+            "gbif_5334217"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3132570",
+      "class_label": "Galinsoga parviflora",
+      "common_name": "Potato weed",
+      "scientific_name": "Galinsoga parviflora",
+      "family": "Asteraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Potato weed"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3132570",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Potato weed is recorded as Galinsoga parviflora in the family Asteraceae.",
+          "source_ids": [
+            "gbif_3132570"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5359660",
+      "class_label": "Glycine max",
+      "common_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "family": "Fabaceae",
+      "role": "crop",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Soybean"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_5359660",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Soybean is recorded as Glycine max in the family Fabaceae.",
+          "source_ids": [
+            "gbif_5359660"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as crop. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-9206251",
+      "class_label": "Helianthus annuus",
+      "common_name": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "family": "Asteraceae",
+      "role": "crop",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Sunflower"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_9206251",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Sunflower is recorded as Helianthus annuus in the family Asteraceae.",
+          "source_ids": [
+            "gbif_9206251"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as crop. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-7886346",
+      "class_label": "Hordeum murinum",
+      "common_name": "Wall barley",
+      "scientific_name": "Hordeum murinum",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Wall barley"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_7886346",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Wall barley is recorded as Hordeum murinum in the family Poaceae.",
+          "source_ids": [
+            "gbif_7886346"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2926682",
+      "class_label": "Lamium purpureum",
+      "common_name": "Purple dead-nettle",
+      "scientific_name": "Lamium purpureum",
+      "family": "Lamiaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Purple dead-nettle"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2926682",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Purple dead-nettle is recorded as Lamium purpureum in the family Lamiaceae.",
+          "source_ids": [
+            "gbif_2926682"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5347846",
+      "class_label": "Lathyrus oleraceus",
+      "common_name": "Pea",
+      "scientific_name": "Lathyrus oleraceus",
+      "family": "Fabaceae",
+      "role": "crop",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Pea"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_5347846",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Pea is recorded as Lathyrus oleraceus in the family Fabaceae.",
+          "source_ids": [
+            "gbif_5347846"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as crop. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-8370958",
+      "class_label": "Matricaria chamomilla",
+      "common_name": "German chamomile",
+      "scientific_name": "Matricaria chamomilla",
+      "family": "Asteraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "German chamomile"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_8370958",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "German chamomile is recorded as Matricaria chamomilla in the family Asteraceae.",
+          "source_ids": [
+            "gbif_8370958"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3103791",
+      "class_label": "Matricaria discoidea",
+      "common_name": "Pineappleweed",
+      "scientific_name": "Matricaria discoidea",
+      "family": "Asteraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Pineappleweed"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3103791",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Pineappleweed is recorded as Matricaria discoidea in the family Asteraceae.",
+          "source_ids": [
+            "gbif_3103791"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-8707933",
+      "class_label": "Mentha piperita",
+      "common_name": "Peppermint",
+      "scientific_name": "Mentha piperita",
+      "family": "Lamiaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Peppermint"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_8707933",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Peppermint is recorded as Mentha piperita in the family Lamiaceae.",
+          "source_ids": [
+            "gbif_8707933"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2888443",
+      "class_label": "Papaver rhoeas",
+      "common_name": "Red poppy",
+      "scientific_name": "Papaver rhoeas",
+      "family": "Papaveraceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Red poppy"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2888443",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Red poppy is recorded as Papaver rhoeas in the family Papaveraceae.",
+          "source_ids": [
+            "gbif_2888443"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-6391194",
+      "class_label": "Persicaria maculosa",
+      "common_name": "Redshank",
+      "scientific_name": "Persicaria maculosa",
+      "family": "Polygonaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Redshank"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_6391194",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Redshank is recorded as Persicaria maculosa in the family Polygonaceae.",
+          "source_ids": [
+            "gbif_6391194"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-8208358",
+      "class_label": "Plantago lanceolata",
+      "common_name": "Ribwort plantain",
+      "scientific_name": "Plantago lanceolata",
+      "family": "Plantaginaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Ribwort plantain"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_8208358",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Ribwort plantain is recorded as Plantago lanceolata in the family Plantaginaceae.",
+          "source_ids": [
+            "gbif_8208358"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2704179",
+      "class_label": "Poa annua",
+      "common_name": "Annual meadow grass",
+      "scientific_name": "Poa annua",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Annual meadow grass"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2704179",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Annual meadow grass is recorded as Poa annua in the family Poaceae.",
+          "source_ids": [
+            "gbif_2704179"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-7821030",
+      "class_label": "Polygonum aviculare",
+      "common_name": "Knotgrass",
+      "scientific_name": "Polygonum aviculare",
+      "family": "Polygonaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Knotgrass"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_7821030",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Knotgrass is recorded as Polygonum aviculare in the family Polygonaceae.",
+          "source_ids": [
+            "gbif_7821030"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-5289684",
+      "class_label": "Setaria viridis",
+      "common_name": "Green bristlegrass",
+      "scientific_name": "Setaria viridis",
+      "family": "Poaceae",
+      "role": "weed",
+      "plant_type": "grass",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Green bristlegrass"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_5289684",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Green bristlegrass is recorded as Setaria viridis in the family Poaceae.",
+          "source_ids": [
+            "gbif_5289684"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3046890",
+      "class_label": "Sisymbrium officinale",
+      "common_name": "Hedge mustard",
+      "scientific_name": "Sisymbrium officinale",
+      "family": "Brassicaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Hedge mustard"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3046890",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Hedge mustard is recorded as Sisymbrium officinale in the family Brassicaceae.",
+          "source_ids": [
+            "gbif_3046890"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2930262",
+      "class_label": "Solanum tuberosum",
+      "common_name": "Potato",
+      "scientific_name": "Solanum tuberosum",
+      "family": "Solanaceae",
+      "role": "crop",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Potato"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2930262",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Potato is recorded as Solanum tuberosum in the family Solanaceae.",
+          "source_ids": [
+            "gbif_2930262"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as crop. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3085810",
+      "class_label": "Spergula arvensis",
+      "common_name": "Corn spurry",
+      "scientific_name": "Spergula arvensis",
+      "family": "Caryophyllaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Corn spurry"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3085810",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Corn spurry is recorded as Spergula arvensis in the family Caryophyllaceae.",
+          "source_ids": [
+            "gbif_3085810"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3052680",
+      "class_label": "Thlaspi arvense",
+      "common_name": "Field pennycress",
+      "scientific_name": "Thlaspi arvense",
+      "family": "Brassicaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Field pennycress"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3052680",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Field pennycress is recorded as Thlaspi arvense in the family Brassicaceae.",
+          "source_ids": [
+            "gbif_3052680"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-3172070",
+      "class_label": "Veronica hederifolia",
+      "common_name": "Ivy-leaved speedwell",
+      "scientific_name": "Veronica hederifolia",
+      "family": "Plantaginaceae",
+      "role": "weed",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Ivy-leaved speedwell"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_3172070",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Ivy-leaved speedwell is recorded as Veronica hederifolia in the family Plantaginaceae.",
+          "source_ids": [
+            "gbif_3172070"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as weed. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    },
+    {
+      "id": "gbif-2974832",
+      "class_label": "Vicia faba",
+      "common_name": "Faba bean",
+      "scientific_name": "Vicia faba",
+      "family": "Fabaceae",
+      "role": "crop",
+      "plant_type": "Unreviewed",
+      "life_cycle": "Not source-verified for this record",
+      "tier": "B",
+      "aliases": [
+        "Faba bean"
+      ],
+      "taxonomy_source_ids": [
+        "gbif_2974832",
+        "cropandweed_labels"
+      ],
+      "pakistan_relevance": "Not independently field-validated",
+      "expert_review_status": "Taxonomy source checked; species-specific management and local agronomic review pending",
+      "claims": [
+        {
+          "category": "taxonomy",
+          "text": "Faba bean is recorded as Vicia faba in the family Fabaceae.",
+          "source_ids": [
+            "gbif_2974832"
+          ],
+          "verification": "GBIF scientific and vernacular-name evidence saved"
+        },
+        {
+          "category": "classification",
+          "text": "The authors simplified dataset mapping treats this label as crop. Crop/weed roles depend on field context.",
+          "source_ids": [
+            "cropandweed_labels"
+          ],
+          "verification": "Author label mapping"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "dataset",
+      "title": "Aarhus University: Plant Seedlings Dataset",
+      "url": "https://vision.eng.au.dk/plant-seedlings-dataset/",
+      "context": "Denmark / dataset provenance",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "black_bio",
+      "title": "AHDB: Basic black-grass biology",
+      "url": "https://ahdb.org.uk/knowledge-library/arable-weeds-basic-black-grass-biology",
+      "context": "United Kingdom",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "black_iwm",
+      "title": "AHDB: Integrated management of black-grass",
+      "url": "https://ahdb.org.uk/knowledge-library/integrated-management-of-black-grass",
+      "context": "United Kingdom / arable crops",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "charlock_bio",
+      "title": "AHDB: Charlock biology",
+      "url": "https://ahdb.org.uk/knowledge-library/distribution-and-biology-of-charlock-in-the-uk",
+      "context": "United Kingdom / arable crops",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "cleavers_rhs",
+      "title": "RHS: Cleavers",
+      "url": "https://www.rhs.org.uk/weeds/cleavers",
+      "context": "United Kingdom / gardens",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "cleavers_dk",
+      "title": "Crop Protection Online: Cleavers biology",
+      "url": "https://plantevaernonline.dlbr.dk/cp/graphics/Name.asp?DatasourceID=1&Language=en&NameID=145&TaskID=1&id=djf",
+      "context": "Denmark / crops",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "chickweed_bio",
+      "title": "Iowa State University: Common chickweed",
+      "url": "https://crops.extension.iastate.edu/encyclopedia/common-chickweed",
+      "context": "United States",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "chickweed_rhs",
+      "title": "RHS: Chickweed",
+      "url": "https://www.rhs.org.uk/weeds/chickweed",
+      "context": "United Kingdom / gardens",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "fat_hen_awri",
+      "title": "Australian Wine Research Institute: Fat hen",
+      "url": "https://www.awri.com.au/industry_support/viticulture/weed-management/weeds/fat-hen/",
+      "context": "Australia / viticulture",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "silky_bio",
+      "title": "AHDB: Loose silky bent biology",
+      "url": "https://ahdb.org.uk/knowledge-library/distribution-and-biology-of-loose-silky-bent-in-the-uk",
+      "context": "United Kingdom / cereals",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "mayweed_bio",
+      "title": "AHDB: Scentless mayweed biology",
+      "url": "https://ahdb.org.uk/knowledge-library/distribution-and-biology-of-scentless-mayweed-in-the-uk",
+      "context": "United Kingdom / arable crops",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "mayweed_nwcb",
+      "title": "Washington State Noxious Weed Control Board: Scentless Mayweed",
+      "url": "https://www.nwcb.wa.gov/weeds/scentless-mayweed",
+      "context": "Washington State, USA",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "purse_bio",
+      "title": "Iowa State University: Shepherds purse",
+      "url": "https://crops.extension.iastate.edu/encyclopedia/shepherds-purse",
+      "context": "United States",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "purse_wsu",
+      "title": "Washington State University Hortsense: Shepherd's-purse",
+      "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/weeds-shepherds-purse-capsella-bursa-pastoris/",
+      "context": "Washington State, USA",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "geranium_bio",
+      "title": "Native Plant Trust Go Botany: Geranium pusillum",
+      "url": "https://gobotany.nativeplanttrust.org/species/geranium/pusillum/",
+      "context": "New England, USA / morphology",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "wheat_ncsu",
+      "title": "NC State Extension: Triticum aestivum",
+      "url": "https://plants.ces.ncsu.edu/plants/triticum-aestivum/",
+      "context": "United States / horticulture",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "maize_ncsu",
+      "title": "NC State Extension: Zea mays",
+      "url": "https://plants.ces.ncsu.edu/plants/zea-mays/",
+      "context": "United States / horticulture",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "uc_iwm",
+      "title": "University of California IPM: Weed Management in Landscapes",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/weed-management-in-landscapes/",
+      "context": "California, USA / landscape beds",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "hrac",
+      "title": "HRAC Global: Herbicide classification lookup",
+      "url": "https://hracglobal.com/tools/classification-lookup?sort=hrac",
+      "context": "Global / mode-of-action terminology",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_ALOMY",
+      "title": "EPPO Global Database: Alopecurus myosuroides",
+      "url": "https://gd.eppo.int/taxon/ALOMY",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_SINAR",
+      "title": "EPPO Global Database: Sinapis arvensis",
+      "url": "https://gd.eppo.int/taxon/SINAR",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_GALAP",
+      "title": "EPPO Global Database: Galium aparine",
+      "url": "https://gd.eppo.int/taxon/GALAP",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_STEME",
+      "title": "EPPO Global Database: Stellaria media",
+      "url": "https://gd.eppo.int/taxon/STEME",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_TRZAX",
+      "title": "EPPO Global Database: Triticum aestivum",
+      "url": "https://gd.eppo.int/taxon/TRZAX",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_CHEAL",
+      "title": "EPPO Global Database: Chenopodium album",
+      "url": "https://gd.eppo.int/taxon/CHEAL",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_APESV",
+      "title": "EPPO Global Database: Apera spica-venti",
+      "url": "https://gd.eppo.int/taxon/APESV",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_ZEAMX",
+      "title": "EPPO Global Database: Zea mays",
+      "url": "https://gd.eppo.int/taxon/ZEAMX",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_MATIN",
+      "title": "EPPO Global Database: Tripleurospermum inodorum",
+      "url": "https://gd.eppo.int/taxon/MATIN",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_CAPBP",
+      "title": "EPPO Global Database: Capsella bursa-pastoris",
+      "url": "https://gd.eppo.int/taxon/CAPBP",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_GERPU",
+      "title": "EPPO Global Database: Geranium pusillum",
+      "url": "https://gd.eppo.int/taxon/GERPU",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "eppo_BEAVA",
+      "title": "EPPO Global Database: Beta vulgaris subsp. vulgaris var. altissima",
+      "url": "https://gd.eppo.int/taxon/BEAVA",
+      "context": "Taxonomy and names; not a local management approval",
+      "accessed": "2026-10-31"
+    },
+    {
+      "id": "cropandweed_labels",
+      "title": "CropAndWeed authors: original labels and crop/weed mappings",
+      "url": "https://github.com/cropandweed/cropandweed-dataset/blob/main/cnw/utilities/datasets.py",
+      "context": "Austrian research dataset labels; crop/weed roles follow the authors simplified mapping",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3085368",
+      "title": "GBIF taxonomic record: Agrostemma githago",
+      "url": "https://www.gbif.org/species/3085368",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_6109534",
+      "title": "GBIF taxonomic record: Amaranthus retroflexus",
+      "url": "https://www.gbif.org/species/6109534",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_5708780",
+      "title": "GBIF taxonomic record: Barbarea vulgaris",
+      "url": "https://www.gbif.org/species/5708780",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2703777",
+      "title": "GBIF taxonomic record: Bromus hordeaceus",
+      "url": "https://www.gbif.org/species/2703777",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2703717",
+      "title": "GBIF taxonomic record: Bromus secalinus",
+      "url": "https://www.gbif.org/species/2703717",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3089561",
+      "title": "GBIF taxonomic record: Centaurea cyanus",
+      "url": "https://www.gbif.org/species/3089561",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3113414",
+      "title": "GBIF taxonomic record: Cirsium arvense",
+      "url": "https://www.gbif.org/species/3113414",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2928390",
+      "title": "GBIF taxonomic record: Convolvulus arvensis",
+      "url": "https://www.gbif.org/species/2928390",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2928751",
+      "title": "GBIF taxonomic record: Datura stramonium",
+      "url": "https://www.gbif.org/species/2928751",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_5289972",
+      "title": "GBIF taxonomic record: Digitaria sanguinalis",
+      "url": "https://www.gbif.org/species/5289972",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2702808",
+      "title": "GBIF taxonomic record: Echinochloa crus-galli",
+      "url": "https://www.gbif.org/species/2702808",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2889373",
+      "title": "GBIF taxonomic record: Fagopyrum esculentum",
+      "url": "https://www.gbif.org/species/2889373",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_6391461",
+      "title": "GBIF taxonomic record: Fallopia convolvulus",
+      "url": "https://www.gbif.org/species/6391461",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_6391446",
+      "title": "GBIF taxonomic record: Fallopia dumetorum",
+      "url": "https://www.gbif.org/species/6391446",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_5334217",
+      "title": "GBIF taxonomic record: Fumaria officinalis",
+      "url": "https://www.gbif.org/species/5334217",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3132570",
+      "title": "GBIF taxonomic record: Galinsoga parviflora",
+      "url": "https://www.gbif.org/species/3132570",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_5359660",
+      "title": "GBIF taxonomic record: Glycine max",
+      "url": "https://www.gbif.org/species/5359660",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_9206251",
+      "title": "GBIF taxonomic record: Helianthus annuus",
+      "url": "https://www.gbif.org/species/9206251",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_7886346",
+      "title": "GBIF taxonomic record: Hordeum murinum",
+      "url": "https://www.gbif.org/species/7886346",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2926682",
+      "title": "GBIF taxonomic record: Lamium purpureum",
+      "url": "https://www.gbif.org/species/2926682",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_5347846",
+      "title": "GBIF taxonomic record: Lathyrus oleraceus",
+      "url": "https://www.gbif.org/species/5347846",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_8370958",
+      "title": "GBIF taxonomic record: Matricaria chamomilla",
+      "url": "https://www.gbif.org/species/8370958",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3103791",
+      "title": "GBIF taxonomic record: Matricaria discoidea",
+      "url": "https://www.gbif.org/species/3103791",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_8707933",
+      "title": "GBIF taxonomic record: Mentha piperita",
+      "url": "https://www.gbif.org/species/8707933",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2888443",
+      "title": "GBIF taxonomic record: Papaver rhoeas",
+      "url": "https://www.gbif.org/species/2888443",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_6391194",
+      "title": "GBIF taxonomic record: Persicaria maculosa",
+      "url": "https://www.gbif.org/species/6391194",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_8208358",
+      "title": "GBIF taxonomic record: Plantago lanceolata",
+      "url": "https://www.gbif.org/species/8208358",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2704179",
+      "title": "GBIF taxonomic record: Poa annua",
+      "url": "https://www.gbif.org/species/2704179",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_7821030",
+      "title": "GBIF taxonomic record: Polygonum aviculare",
+      "url": "https://www.gbif.org/species/7821030",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_5289684",
+      "title": "GBIF taxonomic record: Setaria viridis",
+      "url": "https://www.gbif.org/species/5289684",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3046890",
+      "title": "GBIF taxonomic record: Sisymbrium officinale",
+      "url": "https://www.gbif.org/species/3046890",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2930262",
+      "title": "GBIF taxonomic record: Solanum tuberosum",
+      "url": "https://www.gbif.org/species/2930262",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3085810",
+      "title": "GBIF taxonomic record: Spergula arvensis",
+      "url": "https://www.gbif.org/species/3085810",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3052680",
+      "title": "GBIF taxonomic record: Thlaspi arvense",
+      "url": "https://www.gbif.org/species/3052680",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_3172070",
+      "title": "GBIF taxonomic record: Veronica hederifolia",
+      "url": "https://www.gbif.org/species/3172070",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    },
+    {
+      "id": "gbif_2974832",
+      "title": "GBIF taxonomic record: Vicia faba",
+      "url": "https://www.gbif.org/species/2974832",
+      "context": "Accepted scientific name, common-name association and botanical family; saved API evidence under dataset/cropandweed/taxonomy",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "general": [
+    {
+      "category": "integrated",
+      "text": "Integrated weed management combines identification, site assessment, competitive planting, soil-cover methods and timely weed removal. Tactics depend on the planting system; landscape guidance is not a crop-specific field prescription.",
+      "source_ids": [
+        "uc_iwm"
+      ]
+    },
+    {
+      "category": "cultural",
+      "text": "In landscape beds, competitive plants and suitable mulches reduce exposed soil and suppress new weeds. The UC source recommends maintaining coverage and monitoring new emergence.",
+      "source_ids": [
+        "uc_iwm"
+      ]
+    },
+    {
+      "category": "mechanical",
+      "text": "General landscape guidance includes removing young weeds before seed production and shallow hoeing for annual weeds, while protecting desirable plants and limiting unnecessary disturbance.",
+      "source_ids": [
+        "uc_iwm"
+      ]
+    },
+    {
+      "category": "chemical",
+      "text": "HRAC Group 1 denotes inhibition of ACCase; Group 2 denotes inhibition of ALS. These are mode-of-action classifications, not proof that a product will control a particular population or be safe in a crop.",
+      "source_ids": [
+        "hrac"
+      ]
+    },
+    {
+      "category": "classification",
+      "text": "A weed is a plant growing where it is unwanted. Crop-versus-weed labels in the classifier describe the dataset classes; whether to retain or remove a plant depends on its context.",
+      "source_ids": [
+        "cleavers_rhs"
+      ]
+    }
+  ]
+}

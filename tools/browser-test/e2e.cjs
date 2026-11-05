@@ -1,0 +1,111 @@
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+const assert = require('assert/strict');
+
+const root = path.resolve(__dirname, '../..');
+const report = { started: new Date().toISOString(), steps: [], errors: [], realModel: false };
+const record = name => { report.steps.push({name, status: 'PASS'}); console.log('PASS:', name); };
+
+(async () => {
+  const browser = await chromium.launch({channel:'msedge',headless:true});
+  try {
+    const page = await browser.newPage({viewport:{width:1440,height:1100}});
+    page.on('pageerror', error => report.errors.push(String(error)));
+    await page.goto('http://127.0.0.1:8501', {waitUntil:'domcontentloaded'});
+    await page.getByRole('heading',{name:'A closer look at what’s growing.'}).waitFor({timeout:60000});
+    record('Streamlit application opens in Microsoft Edge');
+    assert(fs.existsSync(path.join(root,'models/mobilenet_v2/model.pt')), 'Genuine trained model is required for final E2E validation');
+    await page.getByText('Trained model available',{exact:true}).waitFor({timeout:60000});
+    report.realModel = true;
+    const manifest = JSON.parse(fs.readFileSync(path.join(root,'dataset/processed/manifest.json'),'utf8'));
+    const image = manifest.records.find(row => row.split === 'test' && row.class_name === 'Maize');
+    await page.locator('input[type=file]').first().setInputFiles(path.join(root,'dataset/processed',image.processed_path));
+    await page.getByRole('button',{name:'Identify plant',exact:true}).waitFor();
+    await page.getByRole('button',{name:'Identify plant',exact:true}).click();
+    await page.getByText('Top confidence',{exact:true}).waitFor({timeout:60000});
+    record('Actual held-out image uploads and real trained-model inference completes');
+    await page.getByText('Inference',{exact:true}).waitFor();
+    await page.locator('[data-testid="stPlotlyChart"]').first().waitFor({timeout:60000});
+    record('Top-5 prediction chart and confidence cards render');
+    await page.getByText('Help review this identification',{exact:true}).click();
+    await page.getByRole('textbox',{name:'Your observations'}).fill('Automated browser validation using a genuine held-out dataset image. Not independent field validation.');
+    await page.getByRole('button',{name:'Save feedback',exact:true}).click();
+    await page.getByText('Feedback saved locally for review.',{exact:true}).waitFor();
+    record('Prediction feedback persists through the live web application');
+    await page.getByText('See where the model focused (Grad-CAM)',{exact:true}).click();
+    await page.getByRole('button',{name:'Generate explanation',exact:true}).click();
+    await page.getByText('A heatmap explains score sensitivity; it does not verify plant identity.',{exact:true}).waitFor({timeout:60000});
+    record('Real-model Grad-CAM generates through the browser');
+    await page.locator('[data-testid="stMain"]').evaluate(element=>element.scrollTop=0);
+    await page.waitForTimeout(600);
+    await page.screenshot({path:path.join(root,'evaluation/app_identification.png'),fullPage:true});
+    const navigate = async name => {
+      await page.locator('[data-testid="stSidebar"]').getByText(name,{exact:true}).click();
+      assert(await page.getByRole('radio',{name,exact:true}).isChecked());
+      await page.locator('[data-testid="stMain"]').evaluate(element=>element.scrollTop=0);
+      await page.waitForTimeout(500);
+    };
+    await navigate('Species library');
+    await page.getByRole('heading',{name:'Know the plant before the next step.'}).waitFor();
+    record('Source-referenced species library renders');
+    await page.screenshot({path:path.join(root,'evaluation/app_species.png'),fullPage:true});
+    await navigate('Weed management');
+    await page.getByRole('heading',{name:'Practical steps, with their sources.'}).waitFor();
+    assert(await page.getByText('Cultural methods',{exact:true}).count() > 0);
+    record('Management methods and reference controls render');
+    await navigate('Ask the assistant');
+    const chat = page.getByRole('textbox',{name:'How can I manage common chickweed without chemicals?'});
+    await chat.fill('How can I control common chickweed without herbicides?');
+    await chat.press('Enter');
+    await page.getByText('chickweed_rhs: RHS: Chickweed',{exact:false}).waitFor({timeout:60000});
+    record('Local chatbot returns species-specific evidence with live source links');
+    await chat.fill('What is the dose of herbicide for blackgrass?');
+    await chat.press('Enter');
+    await page.getByText('I do not provide pesticide brands, doses or mixing instructions.',{exact:false}).waitFor();
+    record('Chatbot declines prohibited or unsupported dose instructions');
+    await page.screenshot({path:path.join(root,'evaluation/app_chat.png'),fullPage:true});
+    await navigate('Review workspace');
+    await page.getByRole('heading',{name:'Turn observations into better records.'}).waitFor();
+    await page.getByRole('button',{name:'Save review',exact:true}).waitFor();
+    await page.getByRole('textbox',{name:'Reviewer note',exact:true}).fill('Automated workflow check; botanical identity has not been independently verified.');
+    await page.getByRole('button',{name:'Save review',exact:true}).click();
+    await page.getByText('Review saved.',{exact:true}).waitFor();
+    record('History, image review and review-note persistence work');
+    await navigate('Model & data');
+    await page.getByText('Held-out top-1',{exact:true}).waitFor();
+    record('Actual held-out model evaluation dashboard renders');
+    await page.screenshot({path:path.join(root,'evaluation/app_performance.png'),fullPage:true});
+    const mobile = await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+    await mobile.goto('http://127.0.0.1:8501');
+    await mobile.getByRole('heading',{name:'A closer look at what’s growing.'}).waitFor({timeout:60000});
+    await mobile.getByText('Choose a plant photograph',{exact:true}).waitFor();
+    await mobile.getByRole('button',{name:'Expand sidebar',exact:true}).click();
+    await mobile.locator('[data-testid="stSidebar"]').getByText('Species library',{exact:true}).click();
+    await mobile.getByRole('heading',{name:'Know the plant before the next step.'}).waitFor();
+    await mobile.locator('[data-testid="stSidebar"]').getByText('Identify plant',{exact:true}).click();
+    await mobile.getByRole('button',{name:'Collapse sidebar',exact:true}).click();
+    await mobile.getByText('Choose a plant photograph',{exact:true}).waitFor();
+    record('Mobile sidebar opens, navigates between pages and closes');
+    await mobile.waitForTimeout(600);
+    assert(await mobile.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 2),'Unexpected horizontal page overflow on mobile');
+    assert(await mobile.locator('[data-testid="stMain"]').evaluate(element=>element.scrollWidth <= element.clientWidth + 2),'Main content overflows on mobile');
+    const mobileHeading=await mobile.getByRole('heading',{name:'A closer look at what’s growing.'}).boundingBox();
+    assert(mobileHeading.x>=0 && mobileHeading.x+mobileHeading.width<=392,'Mobile main content is obscured or outside the viewport');
+    await mobile.screenshot({path:path.join(root,'evaluation/app_mobile.png'),fullPage:true});
+    record('Mobile viewport renders without horizontal overflow');
+    assert.equal(report.errors.length,0,'Browser JavaScript errors occurred');
+    report.status = 'PASS';
+  } catch(error) {
+    report.status = 'FAIL'; report.errors.push(String(error.stack || error));
+    for (const context of browser.contexts()) {
+      const page = context.pages()[0];
+      if (page) await page.screenshot({path:path.join(root,'evaluation/browser_failure.png'),fullPage:true}).catch(()=>{});
+    }
+    throw error;
+  } finally {
+    report.finished = new Date().toISOString();
+    fs.writeFileSync(path.join(root,'evaluation/browser_e2e.json'),JSON.stringify(report,null,2));
+    await browser.close();
+  }
+})().catch(error => {console.error(error);process.exitCode=1;});

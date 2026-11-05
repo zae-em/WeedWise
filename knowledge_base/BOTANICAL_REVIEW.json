@@ -1,0 +1,102 @@
+[
+  {
+    "species": "Black-grass",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Charlock",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application",
+      "Species-specific management record remains incomplete"
+    ]
+  },
+  {
+    "species": "Cleavers",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Common Chickweed",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Common wheat",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Fat Hen",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Loose Silky-bent",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application",
+      "Species-specific management record remains incomplete"
+    ]
+  },
+  {
+    "species": "Maize",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Scentless Mayweed",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  },
+  {
+    "species": "Shepherds Purse",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application",
+      "Species-specific management record remains incomplete"
+    ]
+  },
+  {
+    "species": "Small-flowered Cranesbill",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application",
+      "Species-specific management record remains incomplete"
+    ]
+  },
+  {
+    "species": "Sugar beet",
+    "review_needed": [
+      "Confirm identification in local field conditions",
+      "Verify Pakistani crop relevance before deployment",
+      "Local agronomist review of any management application"
+    ]
+  }
+]

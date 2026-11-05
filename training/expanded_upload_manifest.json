@@ -1,0 +1,42 @@
+{
+  "files": [
+    "training/expanded_source.zip",
+    "dataset/colab_parts/transfer_manifest.json",
+    "dataset/colab_parts/weed_training_224.zip.part000",
+    "dataset/colab_parts/weed_training_224.zip.part001",
+    "dataset/colab_parts/weed_training_224.zip.part002",
+    "dataset/colab_parts/weed_training_224.zip.part003",
+    "dataset/colab_parts/weed_training_224.zip.part004",
+    "dataset/colab_parts/weed_training_224.zip.part005",
+    "dataset/colab_parts/weed_training_224.zip.part006",
+    "dataset/colab_parts/weed_training_224.zip.part007",
+    "dataset/colab_parts/weed_training_224.zip.part008",
+    "dataset/colab_parts/weed_training_224.zip.part009",
+    "dataset/colab_parts/weed_training_224.zip.part010",
+    "dataset/colab_parts/weed_training_224.zip.part011",
+    "dataset/colab_parts/weed_training_224.zip.part012",
+    "dataset/colab_parts/weed_training_224.zip.part013",
+    "dataset/colab_parts/weed_training_224.zip.part014",
+    "dataset/colab_parts/weed_training_224.zip.part015"
+  ],
+  "sha256_by_name": {
+    "expanded_source.zip": "3ca7e09de88f19b1db463d58e14a93a68d5c424ee2fcf0ecf2c077029416abee",
+    "transfer_manifest.json": "77deb8ed8e9084347a7d9c4f011a52d49a83c49554b2e92bcf9d9852c32eafe1",
+    "weed_training_224.zip.part000": "6d3552ef013200d976080787ef506773153bd500895e18312892c9adcf089736",
+    "weed_training_224.zip.part001": "33b580dd4f2605d5613e1a6f8268acbb59dd705fa395c3e7321ed479cb1049a9",
+    "weed_training_224.zip.part002": "6f2e4d9b1e3c0742dd5e5cfc795847d45e87b0dd25df850e2336d6005c59073d",
+    "weed_training_224.zip.part003": "53111ba6d28c20f329fc9734dc6432fb6af66c3ef53a515736c522bae47137ba",
+    "weed_training_224.zip.part004": "043d72d2478afb69f2c8720269001c57dc3c6c556fbe46e924d9aced643fbae1",
+    "weed_training_224.zip.part005": "de0eb0b7b93d221699a6c29227e3d328a473e0a4234b76efcdb5b1e2e43f9bd5",
+    "weed_training_224.zip.part006": "5f4de8c1f5d5c1bc1c643e07b994e0208b889715384ff7f49e60dea991985f5b",
+    "weed_training_224.zip.part007": "35e99c914ba29c42f6a9844356c72374d9ca8d914f02cfc2ba6bb9296cd5b2b2",
+    "weed_training_224.zip.part008": "fce82be7587397ab046d015e37493c2c12f112a91ce70e6c3f50939356e1775a",
+    "weed_training_224.zip.part009": "d6137f54d756e6da38d11343cdcf5f05d9b18d9263624d814702568e325f26ea",
+    "weed_training_224.zip.part010": "9825831482c3ad6ae08ff217d82cb7190e00683a674f3ad275f113e1fca200f8",
+    "weed_training_224.zip.part011": "a898728740f625ef7a3671f57ece19f5c3b2776cd52bd298c9ba7b3616755349",
+    "weed_training_224.zip.part012": "d1ddd966c1f9fbfd6491e49f103c101fcd79721b32cd4bf1f5234a8631dacdc3",
+    "weed_training_224.zip.part013": "02593b8fb9e556d5664e45052f74f5a8d2c633c792af9dc58eb5075490c9f8ab",
+    "weed_training_224.zip.part014": "fe285036071e6032ef29a762ee5ab644e258a5f403793a23273316c2f56b717a",
+    "weed_training_224.zip.part015": "42c00d8314b7ea9478e61edfda88c284fa0f65e8fe217fe5b2d6dfc8d7b5c1ff"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.testing.unittestEnabled": true,
+  "python.testing.unittestArgs": ["-v", "-s", "tests"],
+  "files.exclude": {"**/__pycache__": true},
+  "search.exclude": {".venv": true, "dataset": true},
+  "colab.uploading": true,
+  "colab.serverMounting": true,
+  "colab.activityBarContentView": true,
+  "colab.activityBarResourceView": true
+}

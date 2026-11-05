@@ -1,0 +1,12 @@
+{
+  "name": "weed-notebook-control",
+  "displayName": "Weed Project Notebook Control",
+  "description": "Project-scoped notebook execution and Colab file transfer through supported VS Code APIs.",
+  "version": "0.1.2",
+  "publisher": "local-weed-project",
+  "engines": {"vscode": "^1.99.0"},
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished", "workspaceContains:.weed-control/enabled", "onCommand:weed.runPending"],
+  "contributes": {"commands": [{"command": "weed.runPending", "title": "Weed Project: Run Pending Notebook Action"}]},
+  "capabilities": {"untrustedWorkspaces": {"supported": false}}
+}

@@ -1,0 +1,23 @@
+{
+  "data_dir": "dataset/processed",
+  "output_dir": "models/mobilenet_v2",
+  "evaluation_dir": "evaluation/mobilenet_v2",
+  "image_size": 224,
+  "batch_size": 64,
+  "head_epochs": 5,
+  "finetune_epochs": 20,
+  "head_lr": 0.001,
+  "finetune_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "patience": 5,
+  "min_delta": 0.0001,
+  "val_fraction": 0.15,
+  "test_fraction": 0.15,
+  "seed": 42,
+  "num_workers": 0,
+  "device": "cuda",
+  "pretrained": true,
+  "resume": null,
+  "finetune_from": 14,
+  "class_balance": true
+}

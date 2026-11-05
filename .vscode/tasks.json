@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "Verify environment", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["scripts/verify_environment.py"], "problemMatcher": []},
+    {"label": "Run infrastructure tests", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "unittest", "discover", "-s", "tests", "-v"], "problemMatcher": []},
+    {"label": "Prepare Colab source bundle", "type": "process", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["scripts/prepare_colab_bundle.py"], "problemMatcher": []}
+  ]
+}
