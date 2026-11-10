@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12392f">
+  <title>WeedWise | Crop and Weed Identifier</title>
+  <link rel="icon" href="data:,">
+  <meta name="description" content="Try the trained WeedWise V2 model on a crop or weed photo.">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./main.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="./"><span aria-hidden="true">✳</span> WeedWise</a>
+      <nav aria-label="Main navigation"><a href="#identify">Identify</a><a href="#examples">Examples</a><a href="#species">Species</a><a href="#evaluation">Evaluation</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <p class="eyebrow">FIELDWISE / MODEL V2</p>
+        <h1>Identify crops<br>and weeds.</h1>
+        <p>Choose a clear photo of one plant and compare the model’s five closest matches.</p>
+        <div class="hero-actions">
+          <a class="button light" href="#identify">Try the model <span aria-hidden="true">↓</span></a>
+          <a class="button hero-secondary" href="#examples">Browse examples</a>
+        </div>
+      </div>
+      <svg viewBox="0 0 260 230" role="img" aria-label="Stylised seedling">
+        <circle cx="130" cy="105" r="92" fill="none" stroke="#86ac8a" opacity=".38"/>
+        <circle cx="130" cy="105" r="70" fill="none" stroke="#86ac8a" opacity=".38"/>
+        <path d="M130 188V86M130 145C83 144 62 113 70 77c35 4 60 28 60 68ZM130 116c43 1 68-31 59-68-36 7-59 32-59 68Z" fill="#a8c989" stroke="#d4e9ba" stroke-width="2"/>
+        <path d="M93 190h74m-61 10h48" stroke="#86ac8a" stroke-width="2"/>
+        <circle cx="200" cy="160" r="4" fill="#e8c173"/>
+      </svg>
+    </section>
+    <div class="stats" aria-label="Supported classes">
+      <div><strong>48</strong><span>Plant species</span></div>
+      <div><strong>40</strong><span>Weed species</span></div>
+      <div><strong>8</strong><span>Crop species</span></div>
+    </div>
+    <section id="identify" aria-labelledby="identify-title">
+      <p class="eyebrow dark">INTERACTIVE DEMO</p>
+      <h2 id="identify-title">Identify a plant</h2>
+      <div class="panels">
+        <div class="card">
+          <h3>1. Choose a photograph</h3>
+          <div class="tabs" role="tablist" aria-label="Photo source">
+            <button id="upload-tab" type="button" role="tab" aria-controls="upload-panel" aria-selected="true">Upload photo</button>
+            <button id="examples-tab" type="button" role="tab" aria-controls="examples-panel" aria-selected="false" tabindex="-1">Examples</button>
+          </div>
+          <div id="upload-panel" role="tabpanel" aria-labelledby="upload-tab">
+            <label class="file">Upload an image <input id="upload" type="file" accept="image/jpeg,image/png,image/webp"></label>
+            <p class="small">JPG, PNG or WebP, up to 12 MB. Use a sharp photo with one plant in frame.</p>
+          </div>
+          <div id="examples-panel" role="tabpanel" aria-labelledby="examples-tab" hidden>
+            <p class="small">Select a labelled test photo, then run the model to compare its prediction with the dataset label.</p>
+            <div id="example-gallery" class="example-gallery" role="group" aria-label="Example photos"></div>
+          </div>
+          <p id="selection" class="selection" hidden></p>
+          <button class="button primary" id="run" type="button" disabled>Run identification</button>
+          <p class="small" id="status" role="status">Loading class information…</p>
+          <img id="preview" alt="Plant selected for identification" hidden>
+          <p class="small">The app sends a resized copy to the prediction service for processing.</p>
+        </div>
+        <div class="card results" id="results" aria-live="polite">
+          <h3>2. Compare the results</h3>
+          <p id="result-empty">The top prediction and its alternatives will appear here.</p>
+          <div id="output" hidden>
+            <p id="flag" class="badge"></p>
+            <p id="prediction"></p>
+            <p id="scientific"></p>
+            <p id="roles" class="small"></p>
+            <p id="comparison" class="small"></p>
+            <ol id="ranking"></ol>
+          </div>
+          <p class="small">Use these suggestions to guide review. Independent field accuracy and unknown species recognition have yet to be measured.</p>
+        </div>
+      </div>
+    </section>
+    <section id="species" aria-labelledby="species-title">
+      <p class="eyebrow dark">MODEL COVERAGE</p>
+      <h2 id="species-title">Supported species</h2>
+      <div class="filters">
+        <label>Search by name or family <input id="search" type="search" placeholder="e.g. Sunflower or Poaceae"></label>
+        <label>Plant role <select id="role"><option value="">All species</option><option value="crop">Crops</option><option value="weed">Weeds</option></select></label>
+      </div>
+      <p id="species-count" class="small" role="status"></p>
+      <ul id="species-list" class="species"></ul>
+    </section>
+    <section id="evaluation" aria-labelledby="evaluation-title">
+      <p class="eyebrow dark">MODEL EVALUATION</p>
+      <h2 id="evaluation-title">Held-out results</h2>
+      <div class="stats results-stats">
+        <div><strong>69.67%</strong><span>Top-1 accuracy</span></div>
+        <div><strong>93.91%</strong><span>Top-5 accuracy</span></div>
+        <div><strong>5,322</strong><span>Test images</span></div>
+      </div>
+      <p>These results come from the verified V2 evaluation on the combined test split. The online demo uses the same trained parameters and temperature scaling.</p>
+    </section>
+  </main>
+  <footer class="wrap">
+    <p>WeedWise · Non-commercial research demonstration · <a href="https://github.com/zae-em/WeedWise">Project source</a></p>
+    <p>Training sources: <a href="https://doi.org/10.1109/WACV56688.2023.00372">Steininger et al., CropAndWeed (WACV 2023)</a> and <a href="https://arxiv.org/abs/1711.05458">Giselsson et al., Plant Seedlings (2017)</a>.</p>
+    <p>Demo photos are resized, letterboxed examples from the <a href="https://vision.eng.au.dk/plant-seedlings-dataset/">Plant Seedlings Dataset</a>, © 2014 Mads Dyrmann, Peter Christiansen, University of Southern Denmark and Aarhus University, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  </footer>
+</body>
+</html>

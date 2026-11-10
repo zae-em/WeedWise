@@ -29,3 +29,6 @@ evaluation/*
 *.pt
 *.pth
 *.sqlite3
+/web/public/release/
+/web/dist/
+.vercel/
