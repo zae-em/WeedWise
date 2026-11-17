@@ -2,6 +2,7 @@
   "framework": null,
   "outputDirectory": "public",
   "functions": {
-    "api/predict.js": { "includeFiles": "engine/**", "maxDuration": 30 }
+    "api/predict.js": { "includeFiles": "engine/**", "maxDuration": 30 },
+    "api/chat.js": { "maxDuration": 30 }
   }
 }

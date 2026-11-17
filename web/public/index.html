@@ -9,12 +9,13 @@
   <meta name="description" content="Try the trained WeedWise V2 model on a crop or weed photo.">
   <link rel="stylesheet" href="./style.css">
   <script type="module" src="./main.js"></script>
+  <script type="module" src="./chat.js"></script>
 </head>
 <body>
   <header class="top">
     <div class="wrap nav">
       <a class="brand" href="./"><span aria-hidden="true">✳</span> WeedWise</a>
-      <nav aria-label="Main navigation"><a href="#identify">Identify</a><a href="#examples">Examples</a><a href="#species">Species</a><a href="#evaluation">Evaluation</a></nav>
+      <nav aria-label="Main navigation"><a href="#identify">Identify</a><a href="#examples">Examples</a><a href="#species">Species</a><a href="#evaluation">Evaluation</a><a href="#chat">Chat</a></nav>
     </div>
   </header>
   <main class="wrap">
@@ -100,7 +101,54 @@
       </div>
       <p>These results come from the verified V2 evaluation on the combined test split. The online demo uses the same trained parameters and temperature scaling.</p>
     </section>
+    <section id="chat" aria-labelledby="chat-title">
+      <p class="eyebrow dark">ASK A QUESTION</p>
+      <h2 id="chat-title">Chat assistant</h2>
+      <p>Ask general questions and return to earlier conversations.</p>
+      <div id="chat-home">
+        <div id="chat-workspace" class="chat-workspace">
+          <aside class="chat-sidebar" aria-label="Chat history">
+            <button id="new-chat" class="button primary" type="button">＋ New chat</button>
+            <h3>Previous chats</h3>
+            <p id="history-empty" class="small">Your conversations will appear here.</p>
+            <ul id="chat-history"></ul>
+          </aside>
+          <div class="chat-main">
+            <div class="chat-heading">
+              <h3 id="conversation-title">New conversation</h3>
+              <span class="chat-provider">Powered by Groq</span>
+            </div>
+            <p id="chat-configuration" class="chat-note" role="status">Checking chat availability…</p>
+            <p id="chat-storage" class="chat-note" role="status"></p>
+            <div id="chat-messages" class="chat-messages" role="log" aria-label="Conversation" aria-live="polite"></div>
+            <p id="chat-error" class="chat-error" role="alert" hidden></p>
+            <button id="chat-retry" type="button" class="chat-secondary" hidden>Retry last message</button>
+            <form id="chat-form">
+              <label for="chat-input">Your message</label>
+              <textarea id="chat-input" rows="3" maxlength="2000" placeholder="Ask a question…" required></textarea>
+              <div class="chat-compose-actions">
+                <span id="chat-request-status" class="small" role="status"></span>
+                <button id="chat-send" class="button primary" type="submit" disabled>Send message</button>
+              </div>
+            </form>
+            <p class="chat-privacy">Chats are saved in this browser. Messages in the active conversation are sent to Groq for a reply. AI answers can contain mistakes.</p>
+          </div>
+        </div>
+      </div>
+      <p id="chat-away" hidden>Chat is open in the floating window. <button type="button" id="chat-return" class="chat-secondary">Show chat here</button></p>
+    </section>
   </main>
+  <button id="chat-launcher" type="button" aria-label="Open chat assistant" aria-haspopup="dialog" aria-controls="chat-dialog" class="chat-launcher">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="6" width="16" height="13" rx="4"/><path d="M12 3v3M1 11v4m22-4v4M8 19v2m8-2v2M9 14h6"/><circle cx="8.5" cy="10.5" r=".8" fill="currentColor"/><circle cx="15.5" cy="10.5" r=".8" fill="currentColor"/></svg>
+    <span>Chat</span>
+  </button>
+  <dialog id="chat-dialog" class="chat-dialog" aria-labelledby="chat-dialog-title">
+    <div class="chat-dialog-bar">
+      <strong id="chat-dialog-title">WeedWise assistant</strong>
+      <div><button id="chat-fullpage" type="button" aria-label="Show chat in page">↗</button><button id="chat-close" type="button" aria-label="Close chat">×</button></div>
+    </div>
+    <div id="chat-dialog-body"></div>
+  </dialog>
   <footer class="wrap">
     <p>WeedWise · Non-commercial research demonstration · <a href="https://github.com/zae-em/WeedWise">Project source</a></p>
     <p>Training sources: <a href="https://doi.org/10.1109/WACV56688.2023.00372">Steininger et al., CropAndWeed (WACV 2023)</a> and <a href="https://arxiv.org/abs/1711.05458">Giselsson et al., Plant Seedlings (2017)</a>.</p>

@@ -23,6 +23,10 @@ Open **http://127.0.0.1:8501**.
 
 ## Application
 
+The Vercel web app includes a general-purpose Groq Chat view with browser-local conversation history,
+New chat and a floating chat button. Set the server-side `GROQ_API_KEY` environment variable and redeploy
+to enable replies. See [web setup](web/README.md) for configuration and history behaviour.
+
 - **Dashboard:** actual class/model/database statistics, recent activity, system status and working quick actions.
 - **Identify plant:** upload, camera where available, or a genuine held-out example; quality checks, real top-5
   predictions, calibrated confidence, crop/weed aggregation, Grad-CAM and feedback. Save explicitly; retaining
