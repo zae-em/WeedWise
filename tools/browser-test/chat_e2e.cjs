@@ -132,7 +132,7 @@ async function main() {
     assert(box.y >= 0 && box.y + box.height <= 845);
     await page.screenshot({ path: path.join(os.tmpdir(), "weedwise-chat-mobile.png") });
     await page.getByRole("button", { name: "Close chat", exact: true }).click();
-    assert.equal(await page.locator("#example-gallery button").count(), 12);
+    await page.waitForFunction(() => document.querySelectorAll("#example-gallery button").length === 12);
     await page.getByRole("tab", { name: "Examples", exact: true }).click();
     await page.locator('[data-example="maize.jpg"]').click();
     await page.getByText("Photo ready.", { exact: true }).waitFor();
