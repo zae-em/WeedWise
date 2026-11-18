@@ -17,6 +17,7 @@ button:disabled{cursor:wait;opacity:.55}
 .brand-text{display:flex;flex-direction:column;gap:.2rem;min-width:0;line-height:1.25}
 .brand-title{color:#fff;font-size:clamp(1rem,2.5vw,1.4rem)}
 .brand-subtitle{color:#bdd29f;font-size:clamp(.75rem,1.7vw,.9rem);font-weight:500}
+.brand-supervisor{color:#e0ecdb;font-size:clamp(.7rem,1.5vw,.8rem);font-weight:400}
 @media(max-width:1000px){.nav{flex-wrap:wrap}header nav{width:100%;justify-content:flex-start}}
 @media(max-width:500px){.brand{gap:.65rem}.brand-logos{gap:.4rem}.brand-logos img{width:42px;height:42px}}
 @media(max-width:350px){.brand{gap:.5rem}.brand-logos img{width:34px;height:34px}}

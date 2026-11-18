@@ -8,7 +8,7 @@ await mkdir(path("./dist/public/release"), { recursive: true });
 const sourceModel = path("./public/release/model.onnx");
 const model = await readFile(sourceModel);
 const metadata = JSON.parse(await readFile(path("./public/release/metadata.json"), "utf8"));
-for (const filename of ["index.html", "main.js", "style.css", "chat.js", "university-logo.png", "app-logo.png"]) {
+for (const filename of ["index.html", "main.js", "style.css", "chat.js", "university-logo.jpg", "app-logo.png"]) {
   await cp(path("./public/" + filename), path("./dist/public/" + filename));
 }
 for (const filename of ["metadata.json", ...metadata.examples.map(example => example.file)]) {
