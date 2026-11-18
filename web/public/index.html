@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#12392f">
   <title>WeedWise | Crop and Weed Identifier</title>
-  <link rel="icon" href="data:,">
+  <link rel="icon" type="image/svg+xml" href="weedwise-logo.svg">
   <meta name="description" content="Try the trained WeedWise V2 model on a crop or weed photo.">
   <link rel="stylesheet" href="./style.css">
   <script type="module" src="./main.js"></script>
@@ -17,7 +17,8 @@
       <a class="brand" href="./">
         <span class="brand-logos">
           <img src="university-logo.jpg" alt="University of Narowal logo" width="56" height="56">
-          <img src="app-logo.png" alt="WeedWise logo placeholder" width="56" height="56">
+          <img src="weedwise-logo.svg" alt="WeedWise logo" width="56" height="56">
+          <strong class="brand-name">WeedWise</strong>
         </span>
         <span class="brand-text">
           <span class="brand-title">University of Narowal</span>
@@ -46,6 +47,43 @@
         <path d="M93 190h74m-61 10h48" stroke="#86ac8a" stroke-width="2"/>
         <circle cx="200" cy="160" r="4" fill="#e8c173"/>
       </svg>
+    </section>
+    <section class="how-it-works" aria-label="How it works">
+      <h2>How it works</h2>
+      <ol class="how-steps">
+        <li>
+          <div class="how-step-mark">
+            <span>01</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8" cy="9" r="1.5"/><path d="m4 18 5-5 4 4 3-3 5 5"/></svg>
+          </div>
+          <h3>Upload a photo</h3>
+          <p>Upload a clear photo of a single plant, or pick one from the Examples tab.</p>
+        </li>
+        <li>
+          <div class="how-step-mark">
+            <span>02</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4M9 10h6m-6 4h4"/></svg>
+          </div>
+          <h3>Model analysis</h3>
+          <p>WeedWise Model V2 analyses the photo using what it learned from 48 plant species, including 40 weeds and 8 crops.</p>
+        </li>
+        <li>
+          <div class="how-step-mark">
+            <span>03</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h11M10 12h11M10 18h11m-18-12 1 1 2-2m-3 7 1 1 2-2m-3 7 1 1 2-2"/></svg>
+          </div>
+          <h3>Top 5 matches</h3>
+          <p>See the five closest matches with confidence scores and whether the model suggests a crop or a weed.</p>
+        </li>
+        <li>
+          <div class="how-step-mark">
+            <span>04</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Zm0 0v15"/></svg>
+          </div>
+          <h3>Learn more</h3>
+          <p>Open the Species tab for plant information, or ask questions in the Chat tab.</p>
+        </li>
+      </ol>
     </section>
     <div class="stats" aria-label="Supported classes">
       <div><strong>48</strong><span>Plant species</span></div>
