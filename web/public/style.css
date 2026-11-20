@@ -4,6 +4,14 @@ body{margin:0;text-align:justify}
 p,.chat-message div{text-align:justify;text-justify:inter-word}
 h1,h2,h3,h4,h5,h6,button,label,input,select,textarea,.top,.button,.eyebrow,.chat-heading,.badge,#prediction,#scientific{text-align:start}
 [hidden]{display:none!important}
+.pwa-install{display:flex;align-items:center;gap:1.5rem}
+.pwa-install>div{min-width:0;flex:1}
+.pwa-install h2{font-size:clamp(1.6rem,4vw,2.2rem)}
+.pwa-install>img{flex-shrink:0;border-radius:22px}
+.pwa-install summary{cursor:pointer;font-weight:700;text-align:start}
+.pwa-install details p{font-size:.9rem;overflow-wrap:break-word}
+.pwa-offline{padding:.85rem 1rem;border:1px solid #b2c99a;border-radius:10px;background:#e6efd9}
+@media(max-width:600px){.pwa-install{align-items:flex-start;flex-direction:column}.pwa-install>img{order:-1;width:64px;height:64px;border-radius:14px}}
 a{color:inherit}
 button,input,select,textarea{font:inherit}
 button{cursor:pointer}

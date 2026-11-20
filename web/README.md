@@ -1,5 +1,11 @@
 # WeedWise V2 on Vercel
 
+## Install as a mobile app
+
+Open https://weedwise-v2-fyp.vercel.app/ and use **Install WeedWise** near the bottom of the page. Supporting browsers show an install prompt. Android users can also choose **Install app** or **Add to Home screen** from Chrome's menu. On iPhone/iPad, open the link in Safari and use **Share → Add to Home Screen**, enabling **Open as Web App** if shown.
+
+The installed PWA uses the same routes and server APIs, opens in a standalone window, and has the WeedWise icon. Identification and chat require internet access. Only the offline notice page and its logo are cached; photos, model predictions, chat messages and API responses are not cached by the service worker. Existing chat history continues to use browser-local storage; separate browsers or installation contexts may have separate history. The service worker has a build-generated cache version and waits for existing app windows to close before activating an update.
+
 ## Chat assistant
 
 The Chat navigation link and floating bottom-right button open the same conversation interface. Each conversation is saved in this browser's local storage and can be reopened from Previous chats. New chat starts a separate conversation. The recent conversation context is sent to Groq for general questions. History is local to the browser and does not sync between devices. Storage limits or blocked browser storage are reported in the interface.

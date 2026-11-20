@@ -8,9 +8,14 @@ await mkdir(path("./dist/public/release"), { recursive: true });
 const sourceModel = path("./public/release/model.onnx");
 const model = await readFile(sourceModel);
 const metadata = JSON.parse(await readFile(path("./public/release/metadata.json"), "utf8"));
-for (const filename of ["index.html", "main.js", "style.css", "chat.js", "university-logo.jpg", "weedwise-logo.svg"]) {
-  await cp(path("./public/" + filename), path("./dist/public/" + filename));
+for (const filename of ["index.html", "main.js", "style.css", "chat.js", "university-logo.jpg", "weedwise-logo.svg", "manifest.webmanifest", "pwa.js", "offline.html", "icons"]) {
+  await cp(path("./public/" + filename), path("./dist/public/" + filename), { recursive: true });
 }
+const offlineHtml = await readFile(path("./public/offline.html"));
+const appIcon = await readFile(path("./public/weedwise-logo.svg"));
+const worker = await readFile(path("./public/sw.js"), "utf8");
+const offlineVersion = createHash("sha256").update(offlineHtml).update(appIcon).update(worker).digest("hex").slice(0, 16);
+await writeFile(path("./dist/public/sw.js"), worker.replaceAll("__WEEDWISE_CACHE_VERSION__", offlineVersion));
 for (const filename of ["metadata.json", ...metadata.examples.map(example => example.file)]) {
   await cp(path("./public/release/" + filename), path("./dist/public/release/" + filename));
 }

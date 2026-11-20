@@ -6,10 +6,16 @@
   <meta name="theme-color" content="#12392f">
   <title>WeedWise | Crop and Weed Identifier</title>
   <link rel="icon" type="image/svg+xml" href="weedwise-logo.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="WeedWise">
   <meta name="description" content="Try the trained WeedWise V2 model on a crop or weed photo.">
   <link rel="stylesheet" href="./style.css">
   <script type="module" src="./main.js"></script>
   <script type="module" src="./chat.js"></script>
+  <script type="module" src="./pwa.js"></script>
 </head>
 <body>
   <header class="top">
@@ -30,6 +36,7 @@
     </div>
   </header>
   <main class="wrap">
+    <p id="pwa-offline" class="pwa-offline" role="status" hidden>You’re offline. Connect to the internet to identify plants or use chat.</p>
     <section class="hero" aria-labelledby="title">
       <div>
         <p class="eyebrow">FIELDWISE / MODEL V2</p>
@@ -184,6 +191,21 @@
         </div>
       </div>
       <p id="chat-away" hidden>Chat is open in the floating window. <button type="button" id="chat-return" class="chat-secondary">Show chat here</button></p>
+    </section>
+    <section id="install" class="pwa-install card" aria-labelledby="install-title" hidden>
+      <div>
+        <p class="eyebrow dark">WEEDWISE ON YOUR PHONE</p>
+        <h2 id="install-title">Keep WeedWise on your home screen.</h2>
+        <p>Open it like an app, with the same plant identification, examples and chat. An internet connection is needed for identification and chat.</p>
+        <button id="pwa-install-button" class="button light" type="button">Install WeedWise</button>
+        <p id="pwa-install-status" class="small" role="status"></p>
+        <details id="pwa-install-help">
+          <summary>How to install on your phone</summary>
+          <p><strong>Android:</strong> Open WeedWise in Chrome, open the browser menu (⋮), then choose Install app or Add to Home screen.</p>
+          <p><strong>iPhone or iPad:</strong> Open WeedWise in Safari, tap Share, then Add to Home Screen. Turn on Open as Web App if shown, then tap Add.</p>
+        </details>
+      </div>
+      <img src="./icons/icon-192.png" width="96" height="96" alt="WeedWise app icon" loading="lazy">
     </section>
   </main>
   <button id="chat-launcher" type="button" aria-label="Open chat assistant" aria-haspopup="dialog" aria-controls="chat-dialog" class="chat-launcher">
